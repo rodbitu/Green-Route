@@ -1,0 +1,32 @@
+/* Estilos específicos para o componente Map */
+.map-container {
+  position: relative;
+}
+
+.mapDiv {
+  width: 100%;
+  height: 700px;
+}
+
+button {
+  padding: 8px 16px;
+  background: red;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5%;
+}
+
+.clearButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+.routeButton {
+  position: absolute;
+  top: 10px;
+  right: 85px;
+  z-index: 10;
+}
