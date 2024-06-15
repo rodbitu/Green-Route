@@ -6,7 +6,7 @@ import "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css";
 import "./Map.css";
 
 mapboxgl.accessToken =
-  "pk.eyJ1Ijoicm9kYml0dSIsImEiOiJjbHd4bmN1MHQwMHVmMmlxMWVtcXVlZ2I3In0.fdh1I31gQY2Qk7m7yV5l4A";
+  proccess.env.TOKEN;
 
 const LOCATION = [-48.487413, -1.43125];
 const MARKERS = [
